@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="https://kit.fontawesome.com/f008ec95f5.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="tipografias/stylesheet.css">
+    <title>Landingpage</title>
+</head>
+
+<body>
+    <header>
+            <img src="img/logo-header.svg" alt="logo samsung">
+
+            <div class="clear"></div>
+    
+
+    </header>
+
+    <main>
+        <div class="centrado">
+            <h2>La evolución es <span class="ahora">  AHORA</span>.</h2>
+            <h1><span class="nuevo">NUEVO</span> <br> Galaxy Z Flip </h1>
+            <div id="visual-uno">
+                
+
+                <div id="formulario-caja">
+                    <p>Participa en el <strong>sorteo</strong> y consíguelo<br><strong> <span
+                                class="gratis">GRATIS</span></strong><br>¡Solo por registrarte!</p><br>
+
+                    <form action="php/enviar.php" id="formulario" method="post">
+                        <label for="nombre" class="texto">Nombre*</label>
+                        <input type="text" name="nombre" id="nombre" required class="campo"> <br>
+
+                        <label for="apellidos" class="texto">Apellidos*</label>
+                        <input type="text" name="apellidos" id="apellidos" required class="campo"> <br>
+
+                        <label for="email" class="texto">Email*</label>
+                        <input type="email" name="email" id="email" required class="campo"> <br>
+
+                        <div class="clear"></div>
+
+                        <input type="checkbox" name="privacidad" id="cuadro" required>
+                        <label class="privacidad" for="privacidad">He leído y acepto la <a href="#">política de privacidad</a> </label><br>
+
+                        <input type="submit" value="REGISTRATE" class="boton">
+
+                    </form>
+                </div>
+            </div>
+
+            <div id="visual-dos">
+                
+                <img src="img/zplip4.png" alt="movilsamsung">
+                
+
+            </div>
+            <div class="clear"></div>
+
+            <div id="opinions">
+                <div class="review">
+                    <img src="img/icono1.svg" alt="">
+                    <h4>Ángel</h4>
+                    <i class="fa-solid fa-star estrella"></i><i class="fa-solid fa-star estrella"></i><i class="fa-solid fa-star estrella"></i><i class="fa-solid fa-star estrella"></i><i class="fa-solid fa-star estrella"></i>
+                    <p>"El móvil es genial, tiene la mejor cámara que he probado nunca. Además, la batería me dura todo el día y parte del siguiente!"</p>
+                    
+                </div>
+                <div class="review">
+                    <img src="img/icono2.svg" alt="">
+                    <h4>Elena</h4>
+                    <i class="fa-solid fa-star estrella" ></i><i class="fa-solid fa-star estrella"></i><i class="fa-solid fa-star estrella"></i><i class="fa-solid fa-star estrella"></i><i class="fa-regular fa-star estrella"></i>
+                    <p>"Trabajo siempre viajando, y tener una pantalla grande es genial. Al doblarlo no ocupada nada en el bolsillo."</p>
+                   
+                   
+                </div>
+                <div class="review">
+                    <img src="img/icono3.svg" alt="">
+                    <h4>Susana</h4>
+                    <i class="fa-solid fa-star estrella" ></i><i class="fa-solid fa-star estrella"></i><i class="fa-solid fa-star estrella"></i><i class="fa-solid fa-star estrella"></i><i class="fa-solid fa-star estrella"></i>
+                    <p>"Es muy potente y la cámara principal me permite seguir mis clases mediante videollamadas"</p>
+                    
+                </div>
+                <div class="clear"></div>
+            </div>
+
+
+        </div>
+        <footer id="footer">
+            <div class="centrado">
+            <p>Este proyecto fue realizado por Víctor Ayala para Aula Creactiva</p>
+        </div>
+        </footer>
+    </main>
+
+
+
+</body>
+
+</html>

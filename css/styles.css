@@ -1,0 +1,217 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0px;
+  background-image: url(../img/background01.jpg);
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  font-family: "samsung_sharp_sansmedium";
+}
+
+/* FONTS FAMILY
+font-family: 'samsung_sharp_sansregular';
+font-family: 'samsung_sharp_sansmedium';
+font-family: 'samsung_sharp_sansbold';
+*/
+
+h2 {
+  color: rgb(243, 243, 243);
+  text-align: center;
+  font-size: 60px;
+  margin-bottom: 0px;
+  font-family: "samsung_sharp_sansregular";
+}
+h1 {
+  font-size: 50px;
+  margin: none;
+  text-align: center;
+  color: white;
+  margin-top: 0px;
+  font-family: "samsung_sharp_sansregular";
+  margin-bottom: 80px;
+}
+
+.nuevo {
+  font-size: 70px;
+  position: relative;
+  top: 15px;
+  font-family: "samsung_sharp_sansbold";
+}
+
+.ahora {
+  font-family: "samsung_sharp_sansbold";
+  text-decoration: underline;
+}
+
+.gratis{
+    font-family: 'samsung_sharp_sansbold';
+    font-size: 30px;
+}
+
+.centrado {
+  width: 960px;
+  margin: auto;
+  
+}
+
+.clear {
+  clear: both;
+}
+
+header {
+  background-color: black;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+header img {
+  display: block;
+  height: 30px;
+  width: 180px;
+  border: 0px;
+  margin-left: 300px;
+}
+
+.centrado #visual-uno {
+  float: left;
+  margin-right: 60px;
+  margin-top: 20px;
+  width: 430px;
+}
+
+.centrado #visual-uno #formulario-caja {
+  background-color: #e6e3f1;
+  width: 450px;
+  padding-bottom: 50px;
+  border-radius: 30px;
+  margin-left: 50px;
+}
+
+.centrado #visual-uno #formulario-caja p {
+  text-align: center;
+  font-size: 20px;
+  padding-top: 40px;
+}
+
+.centrado #visual-uno #formulario-caja #formulario .texto {
+  display: block;
+  width: 100px;
+  color: black;
+  float: left;
+  margin-left: 50px;
+  font-size: 17px;
+}
+
+.centrado #visual-uno #formulario-caja #formulario .campo {
+  width: 230px;
+  margin-bottom: 30px;
+  border-bottom: black 1px solid;
+  background-color: transparent;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  resize: none;
+  float: left;
+}
+
+.centrado #visual-uno #formulario-caja #formulario .privacidad {
+  font-size: 12px;
+}
+
+.centrado #visual-uno #formulario-caja #formulario #cuadro {
+  margin-left: 50px;
+}
+
+.centrado #visual-uno #formulario-caja #formulario .boton {
+  width: 200px;
+  margin-left: 120px;
+  height: 80px;
+  margin-top: 30px;
+  font-size: 20px;
+  border-radius: 50px;
+  background-color: #2237e2;
+  color: white;
+  border: none;
+  transition: 0.5s ease;
+}
+
+.centrado #visual-uno #formulario-caja #formulario .boton:hover {
+  background-color: #985BC3;
+}
+
+.centrado #visual-dos {
+  width: 430px;
+  float: right;
+  margin-left: 40px;
+}
+
+.centrado #visual-dos img {
+  width: 400px;
+  position: relative;
+  bottom: 50px;
+  right: 40px;
+  transform: rotate(0.035turn);
+  
+}
+
+.centrado #visual-dos h2 {
+  color: rgb(243, 243, 243);
+  text-align: center;
+  font-size: 60px;
+  margin-top: 20px;
+}
+
+#opinions .review {
+  height: 300px;
+  width: 250px;
+  float: left;
+  margin-right: 35px;
+  margin-left: 35px;
+  margin-top: 100px;
+  margin-bottom: 80px;
+  text-align: center;
+}
+
+#opinions .review img {
+  display: block;
+  width: 150px;
+  height: 150px;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+#opinions .review p {
+  font-size: 15px;
+  margin: 0px;
+  margin-top: 15px;
+  font-style: italic;
+  color: white;
+}
+
+#opinions .review h4 {
+  margin: 0px;
+  margin-top: 7px;
+  margin-bottom: 7px;
+  font-family: "samsung_sharp_sansbold";
+  color: white;
+}
+
+#opinions .review .estrella {
+  color: white;
+  font-size: 13px;
+}
+
+#footer {
+  color: white;
+  background-color: black;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+#footer p{
+    font-size: 15px;
+    text-align: center;
+    font-style: italic;
+}
+
